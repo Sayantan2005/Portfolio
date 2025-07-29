@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sayantan-personal portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/802c9298f0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logo.png" alt="" class="logo"> -->
+                <div class="logo"> <h1><span>S</span>ayantan</h1></div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars " onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Cybersecurity Enthusiast</p>
+                <h1>!! HI, I'm <span>Sayantan</span> <br>Sarkar From India !! </h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm Sayantan Sarkar, an IT student with a passion for web development, web design, and ethical hacking. With a strong foundation in creating dynamic and visually appealing web interfaces, I aim to deliver seamless and user-friendly digital experiences. My expertise in ethical hacking ensures that the applications I develop are not only innovative but also secure. Explore my portfolio to see how I blend creativity with technical prowess to bring ideas to life. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developement</span><br>Web Developement</li>
+                            <li><span>Cyber Security</span><br>Ethical Hacking</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>Freshers</span><br>Programmer</li>
+                            <li><span>Open To Work</span><br>Web Developement</li>
+                            <li><span>Beginner</span><br>Cyber Security</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2020</span><br>Secondary Education at RHS</li>
+                            <li><span>2022</span><br>Higher-Secondary Education at RHS</li>
+                            <li><span>2023-27</span><br>Undergraduate from MAKAUT</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------services--------- -->
+
+
+    <div id="services">
+        <div class="container">
+             <h1 class="sub-title">My Services</h1>
+             <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Developer</h2>
+                    <p>I write clean and efficient code in languages like C, C++, Java, and Python. With a focus on logic, problem-solving, and performance, I build reliable and scalable applications for real-world use cases.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                  <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Frontend Developement</h2>
+                    <p>I build robust, dynamic websites using HTML, CSS, and JavaScript, ensuring responsive and user-friendly experiences across all devices.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                       <div>
+                        <i class="fa-brands fa-hackerrank"></i>
+                    <h2>Ethical Hacker</h2>
+                    <p>I ensure the security and integrity of web applications by identifying and mitigating vulnerabilities, protecting them from potential threats.</p>
+</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+
+             </div>
+        </div>
+    </div>
+
+    <!-- ---------portfolio---------- -->
+    <div id="portfolio">
+
+
+
+        <div class="container">
+              <h1 class="sub-title">My Work</h1>
+              <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Programming</h3>
+                        <p>As a student, I’m building a strong foundation in programming with C, C++, Java, and Python, developing small projects and learning to write clean, efficient code</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                     <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Website Design</h3>
+                        <p>In web design, I focus on creating visually appealing and user-friendly interfaces that elevate the digital presence of businesses and individuals.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                     <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Hacked Site</h3>
+                        <p>In a security breach, I analyze the compromised site to identify vulnerabilities, then implement solutions to restore and enhance its security.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+              </div>
+              <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- ---------------contact-------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sayantans@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9749439983</p>
+                    <div class="socialicons">
+                        <a href="https://www.facebook.com/sayantan.sarkar.50309"><i class="fa-brands fa-facebook"></i></a>
+                       
+                        <a href="https://www.facebook.com/sayantan.sarkar.50309"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/sayantan.sarkar.50309"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                     <div class="contact-right">
+
+                     <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                         <input type="email" name="email" placeholder="Your Email" required>
+                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                         <button type="submit" class="btn btn2">submit</button>
+                     </form>
+                     <span id="msg"></span>
+                     </div>
+            </div>
+        </div>
+        <div class="copyright">
+           <p>!! Copyright © Sayantan. Made with <i class="fa-solid fa-heart"></i> by Easy Methods!! </p>
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-content")
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+    
+           event.currentTarget.classList.add("active-link"); // add the active-link class css in the currentytarget event 
+           document.getElementById(tabname).classList.add("active-tab"); //add the active-tab css to the getted tabname(id)
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+          function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <form name="submit-to-google-sheet">
+  
+</form>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyoVKHyZKX-Ou-9VgYE34L1qfpYr5i3pcIgATAE0o2dyVXGBiAOsnYVpPUDT09Vc0Gp9g/exec'
+  const form = document.forms['submit-to-google-sheet']
+ const msg = document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Completely Submitted"
+        setTimeout(function(){
+            msg.innerHTML= ""
+        },3000)
+        form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+
+</html>
